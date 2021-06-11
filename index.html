@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Watch Allisson</title>
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">Phone</a>
+            <div class="toggle" onclick="toggle()";></div>
+        </header>
+        <div class="content">
+            <div class="contentBx">
+                <h2>Future in<br>your Ear</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti necessitatibus minus voluptas ipsum deserunt molestiae eum. Enim maxime numquam dolorum ipsa blanditiis id eveniet itaque. Repudiandae eum excepturi tempora animi.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="imgBx">
+                <img src="img/fone.png" class="relogio" alt="watch">
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function toggle(){
+            const toggle = document.querySelector('.toggle');
+            const banner = document.querySelector('.banner');
+            banner.classList.toggle('active')
+            toggle.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
